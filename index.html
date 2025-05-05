@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+</head>
+
+<body>
+    <div class="app">
+
+        <!--!======== App Header=============!-->
+        <div class="app_header">
+            <h2>Assignment name here</h2>
+            <div class="timer">
+                <img src="./timer.png" alt="Timer Icon">
+                <p id="countdown">1h : 25m : 35s</p>
+            </div>
+            <!-- <h2>Max. Marks: <span>50</span></h2> -->
+        </div>
+        <!--!======== App Header=============!-->
+
+        <!--!======== App body =============!-->
+        <div class="app_content">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-9">
+                        <form action="">
+                            <div class="row">
+                                <div
+                                    class="col-md-12 d-flex align-items-center justify-content-between gap-2 gray_bg p-3 px-4">
+                                    <h1 id="questionText">Question 1 out of 20</h1>
+
+                                    <button type="submit" class="button submit_button">
+                                        Submit test
+                                    </button>
+
+                                </div>
+                                <div class="col-md-12 py-3 px-0">
+                                    <section class="main_content">
+
+                                        <div class="questions">
+
+                                            <!--? questions 1 -->
+                                            <section class="form-step active">
+                                                <h3>Sea otters have a favorite rock they use to break open food.</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">True</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">False</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 2-->
+                                            <section class="form-step">
+                                                <h3>The sum of a certain number and 3 times the number is 40. What is
+                                                    the
+                                                    number?</h3>
+                                                <div class="select-container">
+
+
+                                                    <select id="" name="">
+                                                        <option value="" disabled selected>Choose Answer</option>
+                                                        <option value="">1</option>
+                                                        <option value="">10</option>
+                                                        <option value="">40</option>
+                                                        <option value="">4</option>
+                                                    </select>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 3-->
+                                            <section class="form-step">
+                                                <h3>Match the following animals with the sounds they make:</h3>
+                                                <div class="d-flex justify-content-start alighn-items-start gap-5">
+
+                                                    <div class="d-flex flex-column gap-2"
+                                                        style="max-width: 248px; width: 100%;">
+                                                        <h5>Column 1</h5>
+                                                        <p>Lions</p>
+
+                                                        <p>Dogs</p>
+                                                        <p>Bees</p>
+                                                        <p>Horses</p>
+
+
+                                                    </div>
+                                                    <div class="d-flex flex-column gap-2"
+                                                        style="max-width: 248px; width: 100%;">
+                                                        <h5>Column 1</h5>
+                                                        <p>Buzz</p>
+
+                                                        <p>Neigh</p>
+                                                        <p>Roar</p>
+                                                        <p>Barks</p>
+
+
+                                                    </div>
+                                                    <div class="d-flex flex-column gap-2"
+                                                        style="max-width: 248px; width: 100%;">
+
+                                                        <h5>Choose </h5>
+
+                                                        <div class="select-container">
+
+
+                                                            <select id="" name="">
+                                                                <option value="" disabled selected>Choose Answer
+                                                                </option>
+                                                                <option value="Buzz">Buzz</option>
+                                                                <option value="Neigh">Neigh</option>
+                                                                <option value="Roar">Roar</option>
+                                                                <option value="Barks">Barks</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="select-container">
+
+
+                                                            <select id="" name="">
+                                                                <option value="" disabled selected>Choose Answer
+                                                                </option>
+                                                                <option value="Buzz">Buzz</option>
+                                                                <option value="Neigh">Neigh</option>
+                                                                <option value="Roar">Roar</option>
+                                                                <option value="Barks">Barks</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="select-container">
+
+
+                                                            <select id="" name="">
+                                                                <option value="" disabled selected>Choose Answer
+                                                                </option>
+                                                                <option value="Buzz">Buzz</option>
+                                                                <option value="Neigh">Neigh</option>
+                                                                <option value="Roar">Roar</option>
+                                                                <option value="Barks">Barks</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="select-container">
+
+
+                                                            <select id="" name="">
+                                                                <option value="" disabled selected>Choose Answer
+                                                                </option>
+                                                                <option value="Buzz">Buzz</option>
+                                                                <option value="Neigh">Neigh</option>
+                                                                <option value="Roar">Roar</option>
+                                                                <option value="Barks">Barks</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 4-->
+                                            <section class="form-step">
+                                                <h3>What is acid rain?</h3>
+                                                <textarea name="" id=""></textarea>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 5-->
+                                            <section class="form-step">
+
+                                                <h3>What is geeta’s rank in the class?</h3>
+
+                                                <ol type="I">
+                                                    <li>There are 30 students in the class.</li>
+                                                    <li>There are 10 students who scored less than geeta.</li>
+                                                </ol>
+
+                                                <div class="d-flex flex-column gap-4">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="" name="answer" value="">
+                                                        <label for="">Streamline Your Business Operations with Custom
+                                                            CRM Solutions Body: Unlock the potential of your business
+                                                            with our bespoke enterprise CRM solutions.</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="" name="answer" value="">
+                                                        <label for="">Streamline Your Business Operations with Custom
+                                                            CRM Solutions Body:</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="" name="answer" value="">
+                                                        <label for="">Streamline Your Business Operations with Custom
+                                                            CRM Solutions Body: Unlock the potential of your business
+                                                            with our bespoke enterprise CRM solutions.</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="" name="answer" value="">
+                                                        <label for="">Streamline Your Business Operations with Custom
+                                                            CRM Solutions Body:</label><br>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 6-->
+                                            <section class="form-step">
+                                                <h3>What are the main causes of acid rain?</h3>
+                                                <textarea name="" id=""></textarea>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 7-->
+                                            <section class="form-step">
+                                                <h3>How is acid rain formed?</h3>
+                                                <textarea name="" id=""></textarea>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 8-->
+                                            <section class="form-step">
+                                                <h3>What is the pH level of acid rain?</h3>
+                                                <textarea name="" id=""></textarea>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 9-->
+                                            <section class="form-step">
+                                                <h3>What is acid rain?</h3>
+                                                <textarea name="" id=""></textarea>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 10-->
+                                            <section class="form-step">
+                                                <h3>The sum of a number and twice the number is 36. What is the number?
+                                                </h3>
+                                                <div class="select-container">
+
+
+                                                    <select id="" name="">
+                                                        <option value="" disabled selected>Choose Answer</option>
+                                                        <option value="">1</option>
+                                                        <option value="">10</option>
+                                                        <option value="">40</option>
+                                                        <option value="">4</option>
+                                                    </select>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 11-->
+                                            <section class="form-step">
+                                                <h3>A number is subtracted from 50, and the result is twice the number.
+                                                    What is the number?</h3>
+                                                <div class="select-container">
+
+
+                                                    <select id="" name="">
+                                                        <option value="" disabled selected>Choose Answer</option>
+                                                        <option value="">1</option>
+                                                        <option value="">10</option>
+                                                        <option value="">40</option>
+                                                        <option value="">4</option>
+                                                    </select>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 12-->
+                                            <section class="form-step">
+                                                <h3>Three times a number is 15 more than the number. Find the number.
+                                                </h3>
+                                                <div class="select-container">
+
+
+                                                    <select id="" name="">
+                                                        <option value="" disabled selected>Choose Answer</option>
+                                                        <option value="">1</option>
+                                                        <option value="">10</option>
+                                                        <option value="">40</option>
+                                                        <option value="">4</option>
+                                                    </select>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 13-->
+                                            <section class="form-step">
+                                                <h3>The sum of a number and four times the number is 75. What is the
+                                                    number?</h3>
+                                                <div class="select-container">
+
+
+                                                    <select id="" name="">
+                                                        <option value="" disabled selected>Choose Answer</option>
+                                                        <option value="">1</option>
+                                                        <option value="">10</option>
+                                                        <option value="">40</option>
+                                                        <option value="">4</option>
+                                                    </select>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 14-->
+                                            <section class="form-step">
+                                                <h3>A number divided by 5 gives a result of 8. What is the number?</h3>
+                                                <div class="select-container">
+
+
+                                                    <select id="" name="">
+                                                        <option value="" disabled selected>Choose Answer</option>
+                                                        <option value="">1</option>
+                                                        <option value="">10</option>
+                                                        <option value="">40</option>
+                                                        <option value="">4</option>
+                                                    </select>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 15 -->
+                                            <section class="form-step active">
+                                                <h3>Penguins can fly just like other birds</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">True</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">False</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 16 -->
+                                            <section class="form-step active">
+                                                <h3>The heart of a shrimp is located in its head</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">True</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">False</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 17 -->
+                                            <section class="form-step active">
+                                                <h3>Bats are the only mammals that can fly.</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">True</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">False</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 18 -->
+                                            <section class="form-step active">
+                                                <h3>Elephants are the largest land animals on Earth.</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">True</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">False</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 19 -->
+                                            <section class="form-step active">
+                                                <h3>Goldfish have a three-second memory</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">True</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">False</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                            <!--? questions 20 -->
+                                            <section class="form-step active">
+                                                <h3>How would you rate the design and functionality of this Portal?</h3>
+
+                                                <div class="d-flex flex-column gap-2">
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="true" name="answer" value="true">
+                                                        <label for="true">Good</label><br>
+                                                    </div>
+                                                    <div class="d-flex gap-2">
+                                                        <input type="radio" id="false" name="answer" value="false">
+                                                        <label for="false">Bad</label><br>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <!--?  -->
+
+                                        </div>
+
+                                    </section>
+                                </div>
+                                <!--!======== App footer =============!-->
+                                <div
+                                    class="col-md-12 d-flex align-items-center justify-content-end gap-4 gray_bg p-3 px-4">
+                                    <div class="button previous_btn" id="prevBtn">
+                                        <img src="./arrow-left.svg" alt="arrow icon">
+                                        <p>Previous</p>
+                                    </div>
+                                    <div class="button attempted" id="nextBtn">
+                                        <p>Next</p>
+                                        <img src="./arrow-right.svg" alt="arrow icon">
+                                    </div>
+
+                                </div>
+                                <!--!======== App footer =============!-->
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--!======== App sidebar =============!-->
+                    <button class="sidebar-toggle"><img src="./menu.png" alt="menu Icon"></button>
+                    <div class="col-md-3 gray_bg p-4 sidebar">
+                        <h4>Max. Marks: <span>50</span> </h4>
+                        <img src="./close.png" alt="close icon" id="close_icon">
+
+                        <div class="d-flex align-items-center justify-content-center gap-1 w-100 mt-4 flex-wrap">
+
+                            <div class="ques_box all_ques" data-filter="all">
+                                <p>ALL</p>
+                            </div>
+                            <div class="ques_box attempted" data-filter="attempted">
+                                <p>Attempted</p>
+                            </div>
+                            <div class="ques_box skipped" data-filter="skipped">
+                                <p>Not Attempted</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center gap-3 w-100 mt-4 flex-wrap">
+                            <div class="ques_count_box attempted" data-step="0">
+                                <p>1</p>
+                            </div>
+                            <div class="ques_count_box attempted" data-step="1">
+                                <p>2</p>
+                            </div>
+                            <div class="ques_count_box attempted" data-step="2">
+                                <p>3</p>
+                            </div>
+                            <div class="ques_count_box skipped" data-step="3">
+                                <p>4</p>
+                            </div>
+                            <div class="ques_count_box attempted" data-step="4">
+                                <p>5</p>
+                            </div>
+                            <div class="ques_count_box attempted" data-step="5">
+                                <p>6</p>
+                            </div>
+                            <div class="ques_count_box skipped" data-step="6">
+                                <p>7</p>
+                            </div>
+                            <div class="ques_count_box attempted" data-step="7">
+                                <p>8</p>
+                            </div>
+                            <div class="ques_count_box skipped" data-step="8">
+                                <p>9</p>
+                            </div>
+                            <div class="ques_count_box attempted" data-step="9">
+                                <p>10</p>
+                            </div>
+                            <div class="ques_count_box skipped" data-step="10">
+                                <p>11</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="11">
+                                <p>12</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="12">
+                                <p>13</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="13">
+                                <p>14</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="14">
+                                <p>15</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="15">
+                                <p>16</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="16">
+                                <p>17</p>
+                            </div>
+
+                            <div class="ques_count_box all_ques" data-step="17">
+                                <p>18</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="18">
+                                <p>19</p>
+                            </div>
+                            <div class="ques_count_box all_ques" data-step="19">
+                                <p>20</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <!--!======== App sidebar =============!-->
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!--!======== App body =============!-->
+
+
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
